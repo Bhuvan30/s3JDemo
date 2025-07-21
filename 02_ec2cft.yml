@@ -21,7 +21,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-01f14919ba412de34  # Amazon Linux 2 for eu-north-1 (Stockholm)
+      ImageId: ami-013ed6046abe69f0f
       SecurityGroupIds:
         - !Ref EC2SecurityGroup
       Tags:
